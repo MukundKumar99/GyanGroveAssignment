@@ -1,0 +1,52 @@
+.home-bg-container {
+  height: 90vh;
+  width: 100vw;
+  font-family: "Inter";
+  background-image: url("https://res.cloudinary.com/dc2b69ycq/image/upload/v1711857509/Banner_jvcmwl.svg");
+  background-size: cover;
+  padding-top: 30px;
+}
+.heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin: 10px 30px;
+  line-height: 40px;
+}
+@media screen and (min-width: 786px) {
+  .heading {
+    font-size: 48px;
+    line-height: 80px;
+    padding-top: 70px;
+  }
+}
+.break-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .break-desktop {
+    display: inline-block;
+  }
+}
+.break-mobile {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .break-mobile {
+    display: none;
+  }
+}
+.sub-title {
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  margin: 20px 30px;
+  font-size: 13px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .sub-title {
+    font-size: 18px;
+  }
+}

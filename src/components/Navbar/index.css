@@ -62,7 +62,7 @@
   font-size: 14px;
   font-weight: 600;
   height: 100%;
-  width: 95%;
+  width: 90%;
   border: none;
   color: #989090;
   padding-left: 20px;
@@ -96,7 +96,13 @@
 .favoutite-icon {
   font-size: 18px;
   margin-right: 10px;
+  margin-left: 10px;
   color: #989090;
+}
+@media screen and (min-width: 768px) {
+  .favoutite-icon {
+    margin-left: 0;
+  }
 }
 .signin-btn {
   font-size: 14px;
@@ -107,6 +113,7 @@
   color: #989090;
   border: 1px solid #b0babf;
   background-color: #fff;
+  cursor: pointer;
 }
 .location-btn {
   width: 150px;
@@ -137,7 +144,8 @@
   list-style-type: none;
   display: flex;
   justify-content: center;
-  overflow-x: scroll;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 @media screen and (min-width: 768px) {
   .links-container {
